@@ -1,0 +1,18 @@
+[project]
+name = "residencial-aurora"
+version = "0.1.0"
+description = "Assistente virtual do Residencial Aurora, construido com Google ADK e FastAPI."
+authors = [
+    { name = "patricia-souza", email = "souza302418@hotmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "google-adk==2.9.1",
+    "fastapi>=0.116",
+    "uvicorn[standard]>=0.30",
+    "python-dotenv>=1.0",
+    "aiosqlite>=0.20",
+]
+
+[tool.uv]
+package = false
